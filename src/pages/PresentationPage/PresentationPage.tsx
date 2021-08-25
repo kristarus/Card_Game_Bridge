@@ -33,7 +33,7 @@ function PresentationPage() {
       <NavigationMenu isAuth={true} />
       <br />
       <br />
-      <Card isVisible={false} />
+      <Card type={null} />
       <Balance value={500} />
     </div>
   );

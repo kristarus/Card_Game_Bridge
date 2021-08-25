@@ -9,4 +9,5 @@ export interface IButtonProps {
   onClick: () => void;
   onSubmit?: React.FormEventHandler<HTMLButtonElement>;
   type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 }

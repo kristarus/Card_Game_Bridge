@@ -1,13 +1,14 @@
 import styled from "styled-components";
-import BackSide from "assets/images/BackSide.svg";
+// import BackSide from "assets/images/BackSide.svg";
 
 interface IRootProps {
-  img: string;
+  img?: string;
 }
 
 export const Root = styled.div<IRootProps>`
-  width: 20%;
-  padding-top: 30%;
-  background-image: url(${({ img }: IRootProps) => (img ? img : BackSide)});
+  width: 26%;
+  padding-top: 39%;
+  background-image: url(${({ img }: IRootProps) =>
+    img ? `images/${img}.svg` : `images/BackSide.svg`});
   background-size: cover;
 `;

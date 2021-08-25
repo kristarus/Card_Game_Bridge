@@ -4,9 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Router } from "react-router-dom";
-import { createBrowserHistory } from "history";
-
-const history = createBrowserHistory();
+import history from "routes/AppHistory";
 
 ReactDOM.render(
   <React.StrictMode>

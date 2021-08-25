@@ -5,4 +5,10 @@ export const Root = styled.form`
   display: grid;
   grid-gap: 10px;
   justify-items: center;
+  position: relative;
+`;
+
+export const ErrorWrapper = styled.div`
+  position: absolute;
+  bottom: -30px;
 `;
