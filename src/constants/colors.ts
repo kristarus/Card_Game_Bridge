@@ -5,4 +5,5 @@ export enum COLORS {
   BLUE = "#18226D",
   LIGHT_BLUE = "#D4D6F7",
   LIGHT_GREY = "#e9eafb",
+  RED = "darkred",
 }

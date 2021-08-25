@@ -1,4 +1,4 @@
 export interface ICardProps {
-  isVisible: boolean;
-  type?: string;
+  // isVisible: boolean;
+  type: string | null;
 }

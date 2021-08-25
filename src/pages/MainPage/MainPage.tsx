@@ -1,11 +1,13 @@
 import React from "react";
+import { Root } from "./MainPageStyles";
+import { Board, NavigationMenu } from "modules";
 
 function MainPage() {
-
   return (
-    <>
-    Main Page
-    </>
+    <Root>
+      <NavigationMenu isAuth />
+      <Board />
+    </Root>
   );
 }
 
